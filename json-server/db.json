@@ -1,0 +1,117 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "SHIELD SUNGLASSES",
+            "price": 500,
+            "description": "100% UVA and UVB Protection CE - Lenses are UV Category Filter 3",
+            "category": "Sunglasses",
+            "image": "https://www.chanel.com/images//t_one/t_fashion9//b_rgb:F7F7F7,e_brightness:-3/q_auto:good,f_auto,fl_lossy,dpr_1.2/w_1680/shield-sunglasses-black-acetate-acetate-packshot-default-a71540x01081s0114-9523161006110.jpg"
+        },
+
+        {
+            "id": 2,
+            "title": "SQUARE SUNGLASSES",
+            "price": 635,
+            "description": "100% UVA and UVB Protection CE - Lenses are UV Category Filter 3",
+            "category": "Sunglasses",
+            "image": "https://www.chanel.com/images//t_one/t_fashion9//b_rgb:F7F7F7,e_brightness:-3/q_auto:good,f_auto,fl_lossy,dpr_1.2/w_1680/square-sunglasses-white-acetate-acetate-packshot-default-a71529x08101s3716-9522169643038.jpg"
+        },
+
+        {
+            "id": 3,
+            "title": "SQUARE SUNGLASSES",
+            "price": 1230,
+            "description": "100% UVA and UVB Protection CE - Lenses are UV Category Filter 3",
+            "category": "Sunglasses",
+            "image": "https://www.chanel.com/images//t_one/t_fashion9//b_rgb:F7F7F7,e_brightness:-3/q_auto:good,f_auto,fl_lossy,dpr_1.2/w_1680/square-sunglasses-black-acetate-strass-acetate-strass-packshot-default-a71539x02569s0116-9523159924766.jpg"
+        },
+
+        {
+            "id": 4,
+            "title": "J12 CALIBER 12.2, 33 MM",
+            "price": 7300,
+            "description": "White highly resistant ceramic and steel",
+            "category": "Watch",
+            "image": "https://www.chanel.com/images//t_one///q_auto:good,f_auto,fl_lossy,dpr_1.2/w_1680/j12-watch-caliber-12-2-33-mm-white-white-ceramic-steel-packshot-default-h5699-9527992516638.jpg"
+        },
+
+        {
+            "id": 5,
+            "title": "MADEMOISELLE J12 LA PAUSA WATCH, 38 MM",
+            "price": 10050,
+            "description": "White highly resistant ceramic and steel, silhouette of Mademoiselle Chanel",
+            "category": "Watch",
+            "image": "https://www.chanel.com/images//t_one///q_auto:good,f_auto,fl_lossy,dpr_1.2/w_1680/mademoiselle-j12-la-pausa-watch-38-mm-white-steel-white-ceramic-packshot-default-h7481-9527985504286.jpg"
+        },
+
+        {
+            "id": 6,
+            "title": "J12 CYBERNETIC WATCH, 38 MM",
+            "price": 13900,
+            "description": "Black and white highly resistant ceramic and steel",
+            "category": "Watch",
+            "image": "https://www.chanel.com/images//t_one///q_auto:good,f_auto,fl_lossy,dpr_1.2/w_1680/j12-cybernetic-watch-38-mm-black-white-black-ceramic-steel-white-ceramic-packshot-default-h7988-9527970201630.jpg"
+        },
+
+        {
+            "id": 7,
+            "title": "ALLURE HOMME ÉDITION BLANCHE",
+            "price": 145,
+            "description": "Eau de Parfum Spray",
+            "category": "Men's",
+            "image": "https://www.chanel.com/images//t_one//w_0.51,h_0.51,c_crop/q_auto:good,f_auto,fl_lossy,dpr_1.2/w_1680/allure-homme-edition-blanche-eau-de-parfum-spray-3-4fl-oz--packshot-default-127460-9519204204574.jpg"
+        },
+
+        {
+            "id": 8,
+            "title": "BLEU DE CHANEL",
+            "price": 187,
+            "description": "3.4 fl. oz. Eau de Parfum Twist and Spray Set",
+            "category": "Men's",
+            "image": "https://www.chanel.com/images//t_one//q_auto/q_auto:good,f_auto,fl_lossy,dpr_1.2/w_1680/bleu-de-chanel-3-4-fl-oz-eau-de-parfum-twist-and-spray-set-1piece-packshot-default-100449-8835365404702.jpg"
+        },
+
+        {
+            "id": 9,
+            "title": "LE LION DE CHANEL",
+            "price": 425,
+            "description": "LES EXCLUSIFS DE CHANEL – Eau de Parfum",
+            "category": "Men's",
+            "image": "https://www.chanel.com/images//t_one//w_0.51,h_0.51,c_crop/q_auto:good,f_auto,fl_lossy,dpr_1.2/w_1680/le-lion-de-chanel-les-exclusifs-de-chanel-eau-de-parfum-6-8fl-oz--packshot-default-122380-8827610497054.jpg"
+        },
+
+        {
+            "id": 10,
+            "title": "CHANCE EAU FRAÎCHE",
+            "price": 108,
+            "description": "Eau de Toilette Twist and Spray",
+            "category": "Women's",
+            "image": "https://www.chanel.com/images//t_one//w_0.51,h_0.51,c_crop/q_auto:good,f_auto,fl_lossy,dpr_1.2/w_1680/chance-eau-fraiche-eau-de-toilette-twist-and-spray-3x0-7fl-oz--packshot-default-136100-8807159693342.jpg"
+        },
+
+        {
+            "id": 11,
+            "title": "N°5 L'EAU",
+            "price": 160,
+            "description": "Eau de Toilette Spray",
+            "category": "Women's",
+            "image": "https://www.chanel.com/images//t_one//w_0.51,h_0.51,c_crop/q_auto:good,f_auto,fl_lossy,dpr_1.2/w_1680/n-5-l-eau-eau-de-toilette-spray-3-4fl-oz--packshot-default-105530-9518357151774.jpg"
+        },
+
+        {
+            "id": 12,
+            "title": "ALLURE SENSUELLE",
+            "price": 160,
+            "description": "Eau de Parfum Spray",
+            "category": "Women's",
+            "image": "https://www.chanel.com/images//t_one//w_0.51,h_0.51,c_crop/q_auto:good,f_auto,fl_lossy,dpr_1.2/w_1680/allure-sensuelle-eau-de-parfum-spray-3-4fl-oz--packshot-default-129730-8824194039838.jpg"
+        }
+
+
+
+    
+        
+        
+    ]
+}
