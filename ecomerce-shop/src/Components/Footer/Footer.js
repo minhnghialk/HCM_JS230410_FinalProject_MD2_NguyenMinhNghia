@@ -21,7 +21,7 @@ const Footer = () => {
                 <h5 className="text-uppercase">explore chanel.com</h5>
                 <ul className="list-unstyled mb-0">
                   <li>
-                    <a href="#!" className="text-light">
+                    <a href="#!" className="text-light text-light123">
                       Watches
                     </a>
                   </li>
@@ -119,7 +119,7 @@ const Footer = () => {
           </div>
           {/* Grid container */}
         </div>
-        <div style={{ borderTop: "1px solid grey" }}>
+        <div style={{ borderTop: "1px solid white" }}>
           {/* Section: Social media */}
           <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
             {/* Left */}

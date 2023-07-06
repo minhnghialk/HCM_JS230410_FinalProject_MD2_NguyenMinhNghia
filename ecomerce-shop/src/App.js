@@ -22,7 +22,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/products/:id" element={<ProductDetail />} />
-          <Route path="/wishlist" element={<WishList />} />
+          <Route path="/wishlist/" element={<WishList />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
       </div>

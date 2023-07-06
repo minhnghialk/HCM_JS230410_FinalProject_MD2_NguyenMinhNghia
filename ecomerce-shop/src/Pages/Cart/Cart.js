@@ -23,12 +23,16 @@ const Cart = () => {
     0
   );
 
-  //remove product handler
   const removeProductHandler = (product) => {
-    dispatch(removeFromCart(product));
-    toast.warning(`${product.title.slice(0, 20)} is removed from cart`, {
-      autoClose: 1000,
-    });
+    const confirmDelete = window.confirm(
+      "Are you sure you want to remove this product from the cart?"
+    );
+    if (confirmDelete) {
+      dispatch(removeFromCart(product));
+      toast.warning(`${product.title.slice(0, 20)} is removed from cart`, {
+        autoClose: 1000,
+      });
+    }
   };
 
   //remove all product handler

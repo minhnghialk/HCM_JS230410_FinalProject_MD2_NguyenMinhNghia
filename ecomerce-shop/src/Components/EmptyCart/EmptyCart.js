@@ -1,6 +1,5 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-// import cart from "../../assests/cart.png";
 import styles from "./emptycart.module.scss";
 import { AiOutlineShopping } from "react-icons/ai";
 
@@ -9,7 +8,6 @@ const EmptyCart = () => {
   return (
     <div className={styles.container}>
       <div className={styles.emptyCart}>
-        {/* <img src={cart} alt="empty-cart-img" /> */}
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjh_hXkwU9ZXSSn68DM3AmAtz8gdSYz4KxiQ&usqp=CAU"
           alt="empty-cart-img"

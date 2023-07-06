@@ -80,15 +80,15 @@ const ProductDetail = () => {
           <h6>Category: {data?.category}</h6>
           <p className="py-1">{data?.description}</p>
           <h5>Price: ${data?.price}</h5>
-          <button className="btn btn-primary mt-2" onClick={productHandler}>
+          {/* <button className="btn btn-primary mt-2" onClick={productHandler}>
             Add to Cart
-          </button>
-          <button
+          </button> */}
+          {/* <button
             className={`btn btn-primary mt-2 ms-2`}
             onClick={wishListHandler}
           >
             {state ? "Remove from Wishlist" : "Add to Wishlist"}
-          </button>
+          </button> */}
         </div>
       </div>
       <hr className="mt-5" />

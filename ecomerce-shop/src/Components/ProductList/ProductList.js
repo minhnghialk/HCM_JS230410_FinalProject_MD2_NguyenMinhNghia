@@ -14,13 +14,29 @@ const ProductList = () => {
   const [showSearch, setShowSearch] = useState(false);
   const [searchValue, setSearchValue] = useState("");
 
+  const [showMore, setShowMore] = useState(false);
+  const [visibleProducts, setVisibleProducts] = useState([]);
+
   const dispatch = useDispatch();
 
   const { products, status } = useSelector((state) => state.products);
 
+  // useEffect(() => {
+  //   dispatch(fetchProducts());
+  // }, []);
+
   useEffect(() => {
-    dispatch(fetchProducts());
+    dispatch(fetchProducts()).then((response) => {
+      if (response.payload) {
+        setVisibleProducts(response.payload.slice(0, 3));
+      }
+    });
   }, []);
+
+  const handleLoadMore = () => {
+    const newVisibleProducts = products.slice(0, visibleProducts.length + 3);
+    setVisibleProducts(newVisibleProducts);
+  };
 
   if (status === STATUS.LOADING) {
     return <Loader />;
@@ -59,7 +75,15 @@ const ProductList = () => {
           </div>
         </div>
         <div className={styles.productList}>
-          {products
+          {/* {products
+            ?.filter((item) =>
+              item.title.toLowerCase().includes(searchValue.toLowerCase())
+            )
+            ?.map((product) => {
+              return <ProductCard key={product?.id} product={product} />;
+            })} */}
+
+          {visibleProducts
             ?.filter((item) =>
               item.title.toLowerCase().includes(searchValue.toLowerCase())
             )
@@ -77,6 +101,7 @@ const ProductList = () => {
             marginLeft: "43%",
             fontSize: "12px",
           }}
+          onClick={handleLoadMore}
         >
           VIEW MORE
         </Button>{" "}

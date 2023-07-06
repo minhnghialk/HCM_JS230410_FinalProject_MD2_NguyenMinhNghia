@@ -1,6 +1,6 @@
 import React, { memo } from "react";
-import { Button, Card } from "react-bootstrap";
-import { useDispatch } from "react-redux";
+import { Card } from "react-bootstrap";
+import { useSelector, useDispatch } from "react-redux";
 import { addToCart } from "../../Redux/features/Cart/CartSlice";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
@@ -10,10 +10,10 @@ import { AiOutlinePlusCircle } from "react-icons/ai";
 
 import styles from "./productCard.module.scss";
 
-const ProductCard = ({ product }) => {
+const ProductCard = ({ product, wishListHandler }) => {
   const title = product?.title.slice(0, 20);
   const dispatch = useDispatch();
-  //const cartItems = useSelector((state) => state.cart.cart);
+  const cartItems = useSelector((state) => state.cart.cart);
 
   const navigate = useNavigate();
 
@@ -28,7 +28,10 @@ const ProductCard = ({ product }) => {
   return (
     <div>
       <Card
-        style={{ width: "18rem", textAlign: "center" }}
+        style={{
+          width: "18rem",
+          textAlign: "center",
+        }}
         className={styles.productCard}
       >
         {/* <AiOutlineStar size={22} style={{ marginLeft: "90%" }} /> */}
@@ -41,15 +44,15 @@ const ProductCard = ({ product }) => {
         <Card.Body>
           <Card.Title>{title}</Card.Title>
           <Card.Text>${product?.price}</Card.Text>
-          {/* <Button className={styles.commonBtn} onClick={addProduct}>
-            <AiOutlinePlus />
-            ADD TO CART
-          </Button> */}
-          <AiOutlinePlusCircle size={22} onClick={addProduct} />
+          <AiOutlinePlusCircle
+            size={22}
+            onClick={addProduct}
+            style={{ cursor: "pointer" }}
+          />
         </Card.Body>
         <AiOutlineStar
           size={22}
-          style={{ marginLeft: "90%", marginBottom: "5px" }}
+          style={{ marginLeft: "90%", marginBottom: "5px", cursor: "pointer" }}
         />
       </Card>
     </div>
